@@ -1,0 +1,214 @@
+*{
+	margin:auto;
+	padding:auto;
+    box-sizing: border-box;
+}
+.top-details{
+	width:100%;
+	background-color:#2FA5EB;
+	
+    color: #f0f0f0;
+    padding: 1%;
+    display: flex;
+    
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-name{
+    margin-left: 2px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-container{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    color: #2FA5EB;
+}
+.nav-item{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item:hover{
+    color:#428bca;
+	border-bottom:2px solid gray;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+}
+.home-image{
+    width: 45%;
+}
+.about-us-container{
+    
+    width: 100%;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #f0f0f0;
+}
+.home-heading{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2%;
+    
+    color: darkcyan
+}
+.about-para{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: darkslategrey;
+}   
+.services-list{
+    list-style-type: circle
+}
+.intro-para{
+    margin-bottom: 2%;
+}
+.testimonials-cards{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid lavender;
+    border-radius: 12px;
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    height: 180px;
+    background-color: #2FA5EB;
+}
+.test-para{
+    color: #f0f0f0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+.test-heading{
+    text-align: center;
+    color:#f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input{
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid darkslategrey;
+    height: 35px;
+    margin-bottom: 1%;
+}
+.submit-btn{
+    background-color: #2FA5EB;
+    color: #f0f0f0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 90px;
+}
+.footer{
+    background-color: #0d2436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.follow-us-heading{
+    color: #959ead;
+    font-size: 30px;
+    margin-bottom: 1%;
+
+}
+.icon-container{
+    margin-bottom: 2%;
+}
+.social-icon{
+    margin: 10px;
+    color: #959ead
+}
+.footer-para{
+    color: #959ead;
+    font-size: 15px;
+   
+}
+.director-card{
+    border: 2px solid lavender;
+    border-radius: 5px;
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    height: 180px;
+    background-color: #2FA5EB;
+    display: flex;
+    flex-direction: row;
+
+}
+.director-image{
+    width:40%;
+    border-radius: 4px;
+}
+.director-name{
+    font-size: 27px;
+}
+.services{
+    width: 30%;
+}
+.more-details-btn{
+    background-image: linear-gradient(#d0b200, #a58d00);
+    color: #f0f0f0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 120px;
+    align-self: center;
+    margin: 2%;
+    margin-top: 10%;
+}
+.service-name-btn{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+.service-image{
+    width:25%;
+    border-radius: 4px;
+}
+.modal-info{
+    text-align: center;
+}
